@@ -1,0 +1,40 @@
+{
+  "name": "call-out-my-name",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc -w",
+    "dev": "ts-node -r tsconfig-paths/register src",
+    "build": "node scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonofmagic/call-out-my-name.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonofmagic/call-out-my-name/issues"
+  },
+  "homepage": "https://github.com/sonofmagic/call-out-my-name#readme",
+  "dependencies": {
+    "inversify": "^5.1.1",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.0",
+    "@typescript-eslint/parser": "^4.29.0",
+    "esbuild": "^0.12.18",
+    "eslint": "7.12.1",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "4.2.1",
+    "ts-node": "^10.1.0",
+    "tsconfig-paths": "^3.10.1",
+    "typescript": "^4.3.5"
+  }
+}

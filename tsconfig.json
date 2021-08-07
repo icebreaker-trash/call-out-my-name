@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["ES2015", "DOM"],
+    "types": ["reflect-metadata"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "outDir": "dist",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
